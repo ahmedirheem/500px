@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="619px" height="175px" viewBox="0 0 619 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+      <polygon id="path-1" points="0 0 619 0 619 175 0 175"></polygon>
+  </defs>
+  <g id="Main-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Tablet-with-EC-Grid" transform="translate(-405.000000, -2633.000000)">
+          <g id="Purple_Swirl_Tablet" transform="translate(405.000000, 2633.000000)">
+              <mask id="mask-2" fill="white">
+                  <use xlink:href="#path-1"></use>
+              </mask>
+              <g id="Clip-2"></g>
+              <path d="M619,175 L309.499835,175 L0,175 C0,175 68.8861022,39.732026 305.781429,75.8635544 C542.676425,111.995412 619,0 619,0 L619,112.217539 L619,175 Z" id="Fill-1" fill="#FFDD66" mask="url(#mask-2)"></path>
+          </g>
+      </g>
+  </g>
+</svg>
