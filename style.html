@@ -412,3 +412,114 @@ ul{
     }
 }
 /* End Navbar Section */
+
+
+/* Start Banner Section */
+.banner{
+    background-image: url(./assets/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 72vh;
+    position: relative;
+    top: 70px;
+    border-bottom: 3px solid #fff;
+}
+.banner .container{
+    padding: 0 var(--main-padding);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.banner .banner-title{
+    max-width: 50%;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .banner-info{
+    max-width: 50%;
+}
+.banner .banner-desc{
+    width: 50%;
+    max-width: 50%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+.banner a{
+    display: block;
+    margin-top: 16px;
+    padding: 0 32px;
+    line-height: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 100px;
+    color: var(--main-text-color);
+    background-color: #fff;
+    max-width: 216px;
+    text-align: center;
+    position: relative;
+}
+.banner a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+}
+.banner a:hover::before{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.banner svg{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100vw !important;
+}
+.banner .wave-header{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+.banner .wave-header::after{
+    content: 'Photo by Gezim Fazliu';
+    position: absolute;
+    bottom: 0;
+    right: var(--main-padding);
+    color: rgb(109, 115, 120);
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.banner .wave-header::after:hover{
+    color: #1890ff
+}
+@media (max-width: 768px) {
+    .banner{
+        height: 40vh;
+    }
+    .banner .banner-title{
+        font-size: 24px;
+    }
+    .banner .banner-info{
+        max-width: 100%;
+        position: absolute;
+        bottom: -220px;
+        padding: 0 var(--main-padding) 50px 0 ;
+    }
+    .banner .banner-desc{
+        max-width: 100%;
+        color: var(--main-text-color)
+    }
+    .banner a{
+        max-width: 100%;
+        background-color: var(--main-text-color);
+        color: #fff;
+    }
+}
+/* End Banner Section */
