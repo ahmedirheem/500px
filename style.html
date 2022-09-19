@@ -950,3 +950,93 @@ ul{
     }
 }
 /* End Resource Hub Section */
+
+
+/* Start Quests Section */
+.quests-content{
+    padding: var(--main-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quests-text{
+    flex: 0 0 50%;
+    min-width: 400px;
+    padding-right: 16px;
+}
+.quests-icon svg{
+    width: 64px !important;
+    height: 64px !important;
+}
+.quests-title{
+    padding: 16px 0;
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--main-text-color);
+}
+.quests-description{
+    padding: 0;
+    text-align: start;
+}
+.quests-link{
+    display: inline-block;
+    text-align: center;
+    margin: 16px 0 32px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--main-text-color);
+    border-radius: 100px;
+    width: fit-content;
+    padding: 0 32px;
+    line-height: 60px;
+}
+.quests-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.quests-img img{
+    width: 100%
+}
+@media (max-width: 768px) {
+    .quests-content{
+        flex-direction: column;
+    }
+    .quests-text{
+        text-align: center;
+        padding-right: 0px;
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+    .quests-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* End Quests Section */
+
+/* Strat Licensing Section */
+.licensing-content{
+    align-items: flex-end;
+}
+.licensing-text{
+    min-width: 450px;
+    padding-left: 16px;
+    padding-right: 0px;
+}
+.licensing-content .photo-taker{
+    color: #6d7378;
+    font-size: 14px;
+    cursor: text;
+}
+.licensing-content .photo-name:hover{
+    color: #1890ff;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .licensing-text{
+        min-width: auto;
+    }
+}
+/* End Licensing Section */
