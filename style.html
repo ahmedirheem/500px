@@ -523,3 +523,135 @@ ul{
     }
 }
 /* End Banner Section */
+
+
+/* Strat Features Section */
+.features{
+    padding: var(--main-padding);
+    padding-bottom: 0;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+.features-title{
+    font-size: 36px;
+    color: var(--main-text-color);
+    margin-bottom: 64px;
+}
+.features-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features .feature{
+    padding: 0 8px 16px 8px;
+    text-align: start;
+}
+.features .feature span{
+    display: block;
+    margin-bottom: 16px;
+    color: var(--main-text-color);
+}
+.feature-icon svg{
+    width: 64px !important;
+    height: 64px !important;
+    fill: var(--main-text-color)
+}
+.feature-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.feature-text{
+    line-height: 20px;
+}
+@media (max-width: 1024px) {
+    .features-content{
+        flex-direction: column;
+    }
+    .features .feature{
+        text-align: center;
+    }
+    .features-title{
+        margin-bottom: 32px;
+    }
+}
+@media (max-width: 768px) {
+    .features{
+        margin-top: 250px;
+    }
+}
+.get-app-sec .container{
+    padding: var(--main-padding);
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.get-app-text{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: start;
+}
+.get-app-text .title{
+    display: block;
+    font-size: 36px;
+    color: var(--main-text-color);
+    line-height: 60px;
+    font-weight: bold;
+}
+.get-app-text .description{
+    display: block;
+    line-height: 20px;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+.get-app-text .buttons{
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.get-app-text .buttons a{
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+}
+.get-app-text .buttons a img{
+    width: 135px;
+    height: 45px;
+}
+.get-app-img{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.get-app-img img{
+    width: 340px;
+    height: 340px;
+}
+
+.yellow-wave img{
+    width: 90vw;
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    z-index: -1;
+}
+@media (max-width: 768px) {
+    .get-app-sec .container{
+        flex-direction: column;
+    }
+    .get-app-text{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: start;
+    }
+    .get-app-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .get-app-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+/* End Features Section */
